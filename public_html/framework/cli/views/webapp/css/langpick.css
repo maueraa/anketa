@@ -1,0 +1,33 @@
+.MyLangPick
+{
+/*	width: 108px;*/
+	height: 28px;
+	padding-top: 6px;
+	float: right;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.MyLangPick .portlet-content
+{
+	background:none;
+	margin: 0px;
+	padding: 0px;
+}
+.MyLangPick a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.MyLangPick a:hover, .MyLangPick a:focus
+{
+	text-decoration: underline;
+	font-weight: bold;
+	color: red;
+}
+.MyLangPick .active
+{
+	color: #ffff00;
+}

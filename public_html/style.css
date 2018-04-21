@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+p {
+	font-family: arial, helvetica, sans-serif;
+}
+
+.note {
+	color: red;
+	background-color: yellow;
+	font-weight: bold;
+}
+
+
+#paragraph1 {
+	margin: 10px 10px 10px 65px
+}
+a{
+	color:lightgreen;
+}
+
+a[href="http://www.somesite.com"] {
+	font-weight: bold;
+	color: green;
+}
+
+
+div p {
+	color: blue;
+}
+
+
+p b{color:yellow}
+p > b {
+	color: red;
+}
+
+
+h1 + p {
+	font-size: 24px;
+}
+
+
+a:active {
+	color: blue;
+}
+a:hover{
+	color:brown;
+}
+a:link{
+	background-color: yellow;	
+}
+p::first-letter {
+	font-size: 32px;
+	color:yellow;
+	background-color:red;
+}
+h1::first-letter {
+	font-size: 32px;
+	color:yellow;
+	background-color:red;
+}
